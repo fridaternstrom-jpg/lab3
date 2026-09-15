@@ -156,3 +156,48 @@ main {
         padding-left: 30px;
     }
 }
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: var(--primary-color);
+    h2 {
+        color: white;
+    }
+    p {
+        color: white;
+        font-size: 1.2em;
+    }
+.ikonnere {
+    width: 100px;
+}
+.footer-intro {
+    grid-column: 1/3;
+    text-align: center;
+}
+.footer-contact {
+    grid-column: 1;
+    margin-left: 20%;
+    text-align: left;
+    p {
+        color: black;
+        font-size: 16px;
+    }
+}
+.footer-links {
+grid-column: 2;
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+}
+}
+
+
+
