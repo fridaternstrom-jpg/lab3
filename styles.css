@@ -33,15 +33,48 @@ body {
     gap: 20px;
     width: 100%;
     background-color: var(--primary-color);
+
     p {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 1.5em;
         margin-top: 45px;
     }
+
     img {
         width: 50px;
         height: auto;
         margin-top: 20px;
         margin-left: 10px;
+    }
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    img {
+        width: 25px;
+        position: relative;
+        top: 5px;
+    }
+
+    ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 0.3em;
+        border-bottom-style: solid;
+        border-color: var(--primary-color);
+        border-width: 1px;
+        padding-left: 20px;
+    }
+
+    a {
+        text-decoration: none;
     }
 }
