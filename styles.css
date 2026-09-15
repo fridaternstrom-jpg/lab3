@@ -1,0 +1,29 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    --primary-color: #397E33;
+    --box-color: rgb(8, 87, 8, 0.2);
+    --link-color: #0F430A;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
