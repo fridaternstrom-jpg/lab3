@@ -7,20 +7,23 @@
 
 h1 {
     font-size: 24px;
+    text-align: center;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p {
     font-size: 15px;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 body {
@@ -75,7 +78,7 @@ nav {
     .bild4 {
         width: 20px;
         top: 3px;
-        padding-right: 3px;
+        padding-right: 5px;
     }
 
     ul {
@@ -95,5 +98,33 @@ nav {
 
     a {
         text-decoration: none;
+        color: black;
     }
+}
+
+.herobild {
+    width: 100%;
+}
+
+.linkbutton {
+    text-decoration: none;
+    color: white;
+    background-color: var(--link-color);
+    padding: 10px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+main {
+    a:hover {
+        background-color: lightgreen;
+    }
+}
+
+.rubrikmedlinje1 {
+        border-top-style: solid;
+        border-color: var(--primary-color);
+        border-width: 1px;
+        padding-top: 30px;
 }
