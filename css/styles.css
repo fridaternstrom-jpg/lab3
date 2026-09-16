@@ -36,19 +36,19 @@ body {
     gap: 20px;
     width: 100%;
     background-color: var(--primary-color);
+}
 
-    p {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1.5em;
-        margin-top: 45px;
-    }
+.box p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-top: 45px;
+}
 
-    img {
-        width: 50px;
-        height: auto;
-        margin-top: 30px;
-        margin-left: 10px;
-    }
+.box img {
+    width: 50px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 /*Hela navigationens kod*/
@@ -56,51 +56,51 @@ nav {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
 
-    img {
-        width: 25px;
-        position: relative;
-        top: 5px;
-        padding-right: 1px;
-    }
+nav img {
+    width: 25px;
+    position: relative;
+    top: 5px;
+    padding-right: 1px;
+}
 
-    .bild2 {
-        width: 20px;
-        top: 2px;
-        padding-right: 3px;
-    }
+.bild2 {
+    width: 20px;
+    top: 2px;
+    padding-right: 3px;
+}
 
-    .bild3 {
-        width: 20px;
-        top: 4px;
-        padding-right: 5px;
-    }
+.bild3 {
+    width: 20px;
+    top: 4px;
+    padding-right: 5px;
+}
 
-    .bild4 {
-        width: 20px;
-        top: 3px;
-        padding-right: 5px;
-    }
+.bild4 {
+    width: 20px;
+    top: 3px;
+    padding-right: 5px;
+}
 
-    ul {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+nav ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 
-    li {
-        list-style-type: none;
-        padding: 0.3em;
-        border-bottom-style: solid;
-        border-color: var(--primary-color);
-        border-width: 1px;
-        padding-left: 20px;
-    }
+nav li {
+    list-style-type: none;
+    padding: 0.3em;
+    border-bottom-style: solid;
+    border-color: var(--primary-color);
+    border-width: 1px;
+    padding-left: 20px;
+}
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .herobild {
@@ -117,10 +117,8 @@ nav {
     margin: 0 auto;
 }
 
-main {
-    a:hover {
-        background-color: lightgreen;
-    }
+main a:hover {
+    background-color: lightgreen;
 }
 
 .rubrikmedlinje1 {
@@ -148,16 +146,17 @@ main {
     margin-bottom: 30px;
     margin-left: 10%;
     margin-right: 10%;
-
-    p {
-        text-align: left;
-    }
-
-    h3 {
-        font-size: 20px;
-        padding-left: 30px;
-    }
 }
+
+.korttext p {
+    text-align: left;
+}
+
+.korttext h3 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
 
 footer {
     display: grid;
@@ -165,57 +164,56 @@ footer {
     margin-top: 40px;
     padding: 30px;
     background-color: var(--primary-color);
+}
 
-    h2 {
-        color: white;
-    }
+footer h2 {
+    color: white;
+}
 
-    p {
-        color: white;
-        font-size: 1.2em;
-    }
+footer p {
+    color: white;
+    font-size: 1.2em;
+}
 
-    .ikonnere {
-        width: 100px;
-    }
+.ikonnere {
+    width: 100px;
+}
 
-    .footer-intro {
-        grid-column: 1/3;
-        text-align: center;
-    }
+.footer-intro {
+    grid-column: 1/3;
+    text-align: center;
+}
 
-    .footer-contact {
-        grid-column: 1;
-        margin-left: 5%;
-        text-align: left;
+.footer-contact {
+    grid-column: 1;
+    margin-left: 5%;
+    text-align: left;
+}
 
-        p {
-            color: black;
-            font-size: 14px;
-            margin: 0;
-            padding: 0;
-            text-align: left;
-        }
-    }
+.footer-contect p {
+    color: black;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
 
-    .footer-links {
-        grid-column: 2;
-        text-align: center;
+.footer-links {
+    grid-column: 2;
+    text-align: center;
+}
 
-        ul {
-            margin: 0;
-            padding: 0;
-        }
+.footer-links ul {
+    margin: 0;
+    padding: 0;
+}
 
-        li {
-            list-style-type: none;
-        }
+.footer-links li {
+    list-style-type: none;
+}
 
-        a {
-            color: black;
-        }
-
-    }
+.footer-links a {
+    color: black;
 }
 
 .longone {
@@ -228,55 +226,59 @@ footer {
         display: flex;
         gap: 20px;
         align-items: center;
+    }
 
-        .box {
-            img {
-                margin-left: 120px;
-            }
-        }
+    .box img {
+        margin-left: 120px;
+    }
 
-        nav {
-            ul {
-                background-color: yellow;
-                display: flex;
-            }
-            li {
-                border-bottom-style: none;
-            }
-        }
+    nav ul {
+        background-color: yellow;
+        display: flex;
+    }
+
+    nav li {
+        border-bottom-style: none;
     }
 
     .herobox {
         position: relative;
-
-        .herotext {
-            position: absolute;
-            top: 20%;
-            right: 72%;
-            background-color: var(--box-color);
-            color: white;
-            padding: 20px;
-            margin-left: 40px;
-            h1 {
-                text-align: left;
-            }
-            p {
-                text-align: left;
-                padding-left: 0;
-            }
-            .linkbutton {
-                margin-left: 5px;
-            }
-        }
     }
 
-    .firstheader {
-        .rubrikmedlinje1{
+    .herotext {
+        position: absolute;
+        top: 20%;
+        right: 72%;
+        background-color: var(--box-color);
+        color: white;
+        padding: 20px;
+        margin-left: 40px;
+    }
+
+    .herotext h1 {
+        text-align: left;
+    }
+
+    .herotext p {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .linkbutton {
+        padding: 10px;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .firstheader .rubrikmedlinje1 {
         border-top-style: none;
         font-size: 28px;
     }
-    p {
+
+    .firstheader p {
         padding-left: 20%;
-padding-right: 20%;
+        padding-right: 20%;
     }
-}}
+
+}
