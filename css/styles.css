@@ -154,7 +154,7 @@ main a:hover {
 
 .korttext h3 {
     font-size: 20px;
-    padding-left: 30px;
+    padding-left: 10%;
 }
 
 
@@ -233,12 +233,17 @@ footer p {
     }
 
     nav ul {
-        background-color: yellow;
         display: flex;
+        align-items: center;
     }
 
     nav li {
         border-bottom-style: none;
+    }
+
+    .first {
+        position: relative;
+        top: -3px;
     }
 
     .herobox {
